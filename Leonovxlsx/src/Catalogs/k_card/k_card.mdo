@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3b09554-7f85-4dac-9d8b-e1a8fb18a1c0">
+  <producedTypes>
+    <objectType typeId="75bd1e06-ff32-49c8-958e-1783cac59684" valueTypeId="5f8cbf44-38ac-496a-a530-4193ab4f6007"/>
+    <refType typeId="d78a7cb1-1eb4-4ddf-901d-b937ca08038c" valueTypeId="6cd95046-fe1b-4e50-bb74-770a5758e3f1"/>
+    <selectionType typeId="ace4ac75-ed0c-4470-80d6-cd8e693d5690" valueTypeId="334134c8-eb2c-4e15-aff4-a4c952b11821"/>
+    <listType typeId="4c22a65c-ae47-4ede-bc0d-68a44fa09f08" valueTypeId="b61d9b8f-fe27-4606-bd55-abcdf4b1effc"/>
+    <managerType typeId="391af621-926d-4eb7-9639-c2de8f5271c1" valueTypeId="887a4494-f955-4d5c-88cc-6450f48ee1dd"/>
+  </producedTypes>
+  <name>k_card</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи Kaiten</value>
+  </synonym>
+  <comment>card</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.k_card.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.k_card.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер задачи</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Задача Kaiten</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.k_card.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.k_card.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="775277c3-b65b-4253-8131-894e981b68ca">
+    <name>ПолноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0b7dcc28-16ae-46c2-9dbf-81535fbe95dc">
+    <name>k_owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Owner</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.k_user</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="37177cf8-3349-4cb0-bf43-4c4ddcaeeb25">
+    <name>СсылкаНаЗадачу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на задачу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="458b38c5-273e-462b-84cd-3c8133ed2aa7">
+    <name>board</name>
+    <synonym>
+      <key>ru</key>
+      <value>Board</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.k_board</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d3051a1-608e-45c7-9061-47443349c6a3">
+    <name>lane</name>
+    <synonym>
+      <key>ru</key>
+      <value>Lane</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.k_lane</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5025a40d-fe90-4a65-b1dd-5ed2a69ce568">
+    <name>column</name>
+    <synonym>
+      <key>ru</key>
+      <value>Column</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.k_column</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="668b6196-b0eb-4484-be97-9ae66fbca0f5">
+    <name>type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.k_type</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2cc0594a-518c-4146-bad6-40931380ea9a">
+    <producedTypes>
+      <objectType typeId="b223a06a-1d1e-48ab-a909-ba7af7577fc1" valueTypeId="ff64b0c0-9302-4edd-8a3c-1f3fd2fa1595"/>
+      <rowType typeId="73851694-03fa-4c61-899f-6c14022fa5a6" valueTypeId="eca28ad3-f66c-4b54-a4c9-2f4c7aadab3b"/>
+    </producedTypes>
+    <name>spaces</name>
+    <synonym>
+      <key>ru</key>
+      <value>Spaces</value>
+    </synonym>
+    <attributes uuid="04a9ed96-3ace-4488-ad6c-23834cc4bcb7">
+      <name>space</name>
+      <synonym>
+        <key>ru</key>
+        <value>Space</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.k_space</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3959bd0e-52ab-4f91-8d01-439991e44b40">
+    <producedTypes>
+      <objectType typeId="fd032f4c-43d7-486f-86a0-8345d7f15aa9" valueTypeId="ba449360-7334-4fba-87af-59802c77d046"/>
+      <rowType typeId="a28455ee-f166-4b90-8571-d71e7b763fa7" valueTypeId="2ba681d1-c8a5-411e-86a6-5f56c6f2de61"/>
+    </producedTypes>
+    <name>parents</name>
+    <synonym>
+      <key>ru</key>
+      <value>Parents</value>
+    </synonym>
+    <attributes uuid="db22cbf7-11e8-4406-a2b3-ffc9054d2906">
+      <name>card</name>
+      <synonym>
+        <key>ru</key>
+        <value>Card</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.k_card</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="932284a9-9ada-4301-b23b-34ed8df42702">
+    <producedTypes>
+      <objectType typeId="f9ca229c-96e4-4e26-9073-efdd6160ba0f" valueTypeId="a2361d90-57ed-45e9-93e7-85ee28e4ed59"/>
+      <rowType typeId="beb58268-b8fc-42f3-ba39-2c1a6ac765e2" valueTypeId="117fe05d-481e-4f2c-9da5-d26a4c1ec7a9"/>
+    </producedTypes>
+    <name>children</name>
+    <synonym>
+      <key>ru</key>
+      <value>Children</value>
+    </synonym>
+    <attributes uuid="34a4956e-37d6-4048-a42c-a2fe8470e632">
+      <name>card</name>
+      <synonym>
+        <key>ru</key>
+        <value>Card</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.k_card</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d774e276-49f8-4dc7-884f-c426cb2be890">
+    <producedTypes>
+      <objectType typeId="58e278f8-c220-4dea-a659-41f50adf789e" valueTypeId="d9ad4002-7f96-4262-a6a2-9000e8c31f87"/>
+      <rowType typeId="44282079-6486-4610-abc1-77b0b7ecc5f0" valueTypeId="87b77f61-40e3-4784-affa-2cedb02a646a"/>
+    </producedTypes>
+    <name>members</name>
+    <synonym>
+      <key>ru</key>
+      <value>Members</value>
+    </synonym>
+    <attributes uuid="0328bafa-bcb8-4f45-80aa-dd565bef9c8f">
+      <name>user</name>
+      <synonym>
+        <key>ru</key>
+        <value>User</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.k_user</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8d87d432-fdaf-48b9-9b5c-5be67d19fdf7">
+    <producedTypes>
+      <objectType typeId="7e7a4519-f111-4f62-ba31-47f499385319" valueTypeId="84fa99dc-343b-485b-a4bd-931eedcb4029"/>
+      <rowType typeId="e650e977-fd4a-4d85-bbaf-5f56a7fb6ffb" valueTypeId="023252ab-27e0-4f0a-99df-3fca5e0de899"/>
+    </producedTypes>
+    <name>tags</name>
+    <synonym>
+      <key>ru</key>
+      <value>Tags</value>
+    </synonym>
+    <attributes uuid="c8ff386b-411b-4070-b2f4-83e5ce8ea824">
+      <name>tag</name>
+      <synonym>
+        <key>ru</key>
+        <value>Tag</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.k_tag</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="aa436034-81bc-4813-b8da-96f9c5290cb1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d298e6dd-df25-44b0-af66-d259f7076dca">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

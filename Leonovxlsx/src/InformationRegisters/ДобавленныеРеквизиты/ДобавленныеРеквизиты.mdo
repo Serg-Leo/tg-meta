@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5eb8fb45-08ed-45d8-ae9c-4843108a9881">
+  <producedTypes>
+    <selectionType typeId="2d7720a2-05e1-4385-904d-2de8b6e04d21" valueTypeId="4e186e7f-ba01-457e-979d-1303b862d9e6"/>
+    <listType typeId="29be1dd9-8aef-4d73-81af-72ff6e961583" valueTypeId="de376e83-0a14-495f-b95b-7e50da8e1e7c"/>
+    <managerType typeId="058fafa8-e49c-4a73-9c2b-a2fb2e895e6a" valueTypeId="2b9cb39c-ba58-4179-87c3-f7583f35bd47"/>
+    <recordSetType typeId="9306efbc-23e3-4512-bf0d-06e9d52edbbe" valueTypeId="01be238b-e432-47f3-8183-e50a408a70ee"/>
+    <recordKeyType typeId="3d6532b9-6130-48f4-889e-5887ab338848" valueTypeId="281ce820-0af4-4784-ba59-f71faa867317"/>
+    <recordType typeId="5c90f903-a336-44c1-a866-7b4c200963c9" valueTypeId="3c7bb507-c74d-4c85-bc57-c76fae8f69d4"/>
+    <recordManagerType typeId="f0e90438-c3fa-40fe-a6bf-58a4af0600f7" valueTypeId="9f69f27f-5e93-4087-afd8-63b10dc460b0"/>
+  </producedTypes>
+  <name>ДобавленныеРеквизиты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавленные реквизиты к типовым объектам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ДобавленныеРеквизиты.Form.ФормаСписка</defaultListForm>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="601a49a0-070d-4ba4-b53f-cc55449f8020">
+    <name>ТипДанныхРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип данных реквизита</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="3b636f30-8aee-4a84-b828-6d75b5dc7919">
+    <name>ОбъектВладелецРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект (владелец реквизита)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОбъектыИзменений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd17c703-9ffa-4748-906d-3fd2a92ceffd">
+    <name>НаименованиеРеквизита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование реквизита</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e4f55a3b-5de4-43d0-bf21-73fb76d9b611">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

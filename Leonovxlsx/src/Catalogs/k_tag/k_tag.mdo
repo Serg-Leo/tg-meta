@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2b3c46f-1241-46fd-a2f8-97a29af2aa6c">
+  <producedTypes>
+    <objectType typeId="6e031a0f-8686-41a0-b543-eb7a6ff68b28" valueTypeId="4229844d-95b6-4cc5-950c-c7905ec26625"/>
+    <refType typeId="713d4dff-a476-4dee-ab6f-baf1780320f7" valueTypeId="9c4bfbeb-4ecb-40f2-a3b9-64747628897d"/>
+    <selectionType typeId="dbd91525-e701-4b84-a85c-9183c5a8bdd6" valueTypeId="a922f221-afcc-44e8-8d8a-602fcd2d11d5"/>
+    <listType typeId="6900436c-04cb-4a92-982c-a165efebdb92" valueTypeId="bb997cd7-3ac0-4c42-8a8c-a3815bedbb4f"/>
+    <managerType typeId="4e8e9757-28fa-45d8-b620-3f7c3710c3bc" valueTypeId="e9d6b965-089c-4060-a2f2-392f758e184d"/>
+  </producedTypes>
+  <name>k_tag</name>
+  <synonym>
+    <key>ru</key>
+    <value>tag</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.k_tag.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.k_tag.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

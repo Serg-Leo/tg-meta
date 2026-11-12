@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="509c2268-f447-411d-892d-86dbb1fd5536">
+  <producedTypes>
+    <objectType typeId="10a92a91-d390-4d80-b52d-46ce162e8576" valueTypeId="7f202a7b-3e1f-451a-8c76-d95cae76b13f"/>
+    <refType typeId="12eecee5-1d7e-44ad-b22d-a95e3f172ce3" valueTypeId="d8897957-e767-4817-ba46-3cab9e90a345"/>
+    <selectionType typeId="e6b3732c-dd68-4a1e-ab8c-2f0bf1161d7d" valueTypeId="9abdb80c-09f6-4d46-9425-66bbbf24b71e"/>
+    <listType typeId="b3d9f638-a537-4062-9345-8c3bf41f7268" valueTypeId="a838d112-65d4-4c30-8e86-8f5a9a4bd5c7"/>
+    <managerType typeId="b2d3b041-0076-467e-b251-59a898f88515" valueTypeId="0822bee2-0c84-4515-8d97-adad1d68b523"/>
+  </producedTypes>
+  <name>k_user</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи Kaiten</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.k_user.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.k_user.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1e0f3eac-668b-409c-bc81-c6740bc1c543">
+    <name>email</name>
+    <synonym>
+      <key>ru</key>
+      <value>Email</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="64053d86-3e3d-40bf-854c-71077f2d71bb">
+    <name>username</name>
+    <synonym>
+      <key>ru</key>
+      <value>Username</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7152c0d4-de8c-4d89-8409-8bce00c53105">
+    <name>initials</name>
+    <synonym>
+      <key>ru</key>
+      <value>Initials</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="781c1a91-b393-4fcb-87dd-863f72da80f8">
+  <name>Модель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модель</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЭлементыМодели</content>
+  <content>Enum.ТипыСвязейЭлементов</content>
+  <content>Catalog.СвойстваЭлементов</content>
+  <content>Catalog.КлассификаторПроцессов</content>
+  <content>Catalog.БазыДанных1С</content>
+  <content>Catalog.ХранилищаКонфигураций</content>
+  <content>Catalog.ОбъектыИзменений</content>
+  <content>Catalog.Разработчики</content>
+  <content>Catalog.Конфигурации</content>
+</mdclass:Subsystem>

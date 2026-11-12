@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f73d9fa-ea2b-4afe-836a-9abd96c3a475">
+  <producedTypes>
+    <refType typeId="fbf9a630-8369-49cf-9908-c71b21a96c09" valueTypeId="553f80cc-e805-4ae4-b31f-9c7acfc10f5f"/>
+    <listType typeId="31c00e6d-d427-495b-89ca-9304bff8874f" valueTypeId="6f30ad9b-6f1a-4fa2-8654-b2108bb11bff"/>
+    <managerType typeId="58108c0f-74b8-42df-bea5-075386642d53" valueTypeId="77b78dca-89da-46d7-aaff-e783620c2fd4"/>
+  </producedTypes>
+  <name>ТипыСвязейЭлементов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы связей элементов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b1860321-3239-43a7-a664-5044ceac3f73">
+    <name>Прямая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прямая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

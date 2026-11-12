@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dc7d545-1fee-434b-a8d3-d6132a9f8c77">
+  <producedTypes>
+    <objectType typeId="4fdf432f-1eb0-486e-a7dc-1e86a9a86048" valueTypeId="02359751-c123-406e-8cc4-316244df9119"/>
+    <refType typeId="5196f703-89d3-48db-a8e5-fbf7477c8d54" valueTypeId="5cc3d713-d908-4a58-a027-b69172388fb9"/>
+    <selectionType typeId="fa826646-4e88-4131-9d24-ec6e73811ac6" valueTypeId="2ce6daed-efc3-4790-b070-9511b59295ce"/>
+    <listType typeId="96e0d0bc-cfc8-42ec-a236-b0a0f7443ef7" valueTypeId="481494fa-2a5d-4047-9936-d1dcbf794226"/>
+    <managerType typeId="30c0a55c-4e78-4f7c-9ab8-776c38889a21" valueTypeId="009659d4-c68c-471b-96d2-4bd1e7626802"/>
+  </producedTypes>
+  <name>k_lane</name>
+  <synonym>
+    <key>ru</key>
+    <value>lane</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.k_lane.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.k_lane.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

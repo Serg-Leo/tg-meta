@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="438c66aa-9095-4246-a5ce-9476b59ce3fe">
+  <name>ОтчетОбИзмененияхПоЗадаче</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет об изменениях по задаче</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.k_card</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Print</picture>
+  </picture>
+</mdclass:CommonCommand>

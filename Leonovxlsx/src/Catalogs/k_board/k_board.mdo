@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06a786b8-959f-4cff-be3e-eb8a16e26850">
+  <producedTypes>
+    <objectType typeId="8b08f255-c412-4a0d-9aaf-8bbac0d2ac6b" valueTypeId="905b9b81-fb12-4bb7-b501-0add7d3e504e"/>
+    <refType typeId="d597a975-3e51-4084-8faf-5155436dbbfc" valueTypeId="e7aa19ab-7fb1-4a18-b708-62f78be944d3"/>
+    <selectionType typeId="5a39f6e5-669e-49ab-ac63-f4b8b745496c" valueTypeId="175fbb00-cf30-4e4b-8aea-e1fee3a3519d"/>
+    <listType typeId="d1b4baa2-e053-4c70-88d3-94d5ce740b72" valueTypeId="c746ec9e-cbeb-4856-a636-7f77c9191446"/>
+    <managerType typeId="f2bb64a4-9001-487d-87e1-3e22c8b51679" valueTypeId="1b8aef0e-57ed-4e04-9180-b17258cd40ef"/>
+  </producedTypes>
+  <name>k_board</name>
+  <synonym>
+    <key>ru</key>
+    <value>board</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.k_board.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.k_board.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>30</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

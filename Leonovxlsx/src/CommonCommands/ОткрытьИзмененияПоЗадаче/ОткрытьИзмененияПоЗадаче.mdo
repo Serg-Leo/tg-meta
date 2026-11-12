@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cc110f8-46a6-4ccd-bc14-892324156c8e">
+  <name>ОткрытьИзмененияПоЗадаче</name>
+  <synonym>
+    <key>ru</key>
+    <value>Открыть изменения по задаче</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.k_card</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>StdPicture.Find</picture>
+  </picture>
+</mdclass:CommonCommand>

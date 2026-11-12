@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="270fe7f7-096c-4182-aac3-8978e8c4af3c">
+  <producedTypes>
+    <objectType typeId="d000703d-304d-4afa-900f-a2c188cba5cb" valueTypeId="cab7a41f-edcf-424d-bba6-9300122fc4ae"/>
+    <refType typeId="e67d2abe-f86e-4672-8ebd-bf056b7fba63" valueTypeId="c97a6a86-e00b-4ab7-b459-375d858da9af"/>
+    <selectionType typeId="9542973c-243c-4f4e-b953-0163375bdaea" valueTypeId="fbbb001e-aa78-4c73-98d3-c2d42236ebb2"/>
+    <listType typeId="66b3586a-5b1d-4315-87b0-81f5c359fa46" valueTypeId="02fab0cd-ef58-4189-8e2b-e9569d82a8bc"/>
+    <managerType typeId="0670cee8-2cbb-4453-b305-d4f47cfa0763" valueTypeId="12e2e3ac-92f9-4b4e-9929-8b01bbe2e081"/>
+  </producedTypes>
+  <name>Разработчики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разработчики</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Разработчики.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Разработчики.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="e4c305a1-7fa6-4d92-870c-1dd22058a1cf">
+    <name>k_user</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи Kaiten</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.k_user</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <createOnInput>Use</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

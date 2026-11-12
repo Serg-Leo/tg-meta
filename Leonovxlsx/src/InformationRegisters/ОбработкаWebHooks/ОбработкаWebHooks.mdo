@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="001a1631-4297-4bf2-b3f6-3fdacc2ab023">
+  <producedTypes>
+    <selectionType typeId="1b8a5cda-942b-4caa-bc42-a9044a356ed0" valueTypeId="0cd25e91-2852-4a7b-9da7-5b2d0d08d8bd"/>
+    <listType typeId="88231c79-a1e9-4d77-baae-32ea77a35e9e" valueTypeId="8247a1eb-cd91-4a6d-a79b-c1dc77cbfd4a"/>
+    <managerType typeId="6926626c-ab01-4108-9641-a35cd35725dd" valueTypeId="18e9df5a-65d2-4241-8c06-76280f5d6e55"/>
+    <recordSetType typeId="73aa6830-5b7b-4fb4-aae5-88a27f0fca2b" valueTypeId="03124aba-45dc-4dc4-ad91-ee49d136255c"/>
+    <recordKeyType typeId="f61c5f0c-0089-4282-8088-b0f0ab655662" valueTypeId="da8d1fd4-b76e-4447-81dd-01ce1b1662de"/>
+    <recordType typeId="03ef238d-76b2-4ced-93a4-7e2333a885f0" valueTypeId="9a628647-3b4f-4635-91fd-df4a530a77e7"/>
+    <recordManagerType typeId="c465d05a-38bd-4e10-81d1-06f292921ff3" valueTypeId="71035537-363a-488e-b9c1-679e9646893d"/>
+  </producedTypes>
+  <name>ОбработкаWebHooks</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка web hooks</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4162e5a0-31f5-4907-9289-fa68bc810a8b">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="7b7282b1-612e-4376-8c4c-239afc671d0b">
+    <name>УникальныйИдентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="129ab624-1b20-4c32-a5a2-8e23640a85ad">
+    <name>ДатаВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

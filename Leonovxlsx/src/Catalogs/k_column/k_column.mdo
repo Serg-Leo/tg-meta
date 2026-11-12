@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f12c8435-a228-40db-860f-ea1bd8bde3f1">
+  <producedTypes>
+    <objectType typeId="37680dba-e410-4f08-a3f4-ed7ce52bbbb8" valueTypeId="9c6eaa1b-cac7-4cb5-b6bf-9e7b59bc86b8"/>
+    <refType typeId="a767be15-d88f-4b90-a175-e3795c34baf0" valueTypeId="42703e8a-bf6b-401d-8946-647dbf98da09"/>
+    <selectionType typeId="497d33c2-9659-4bc7-ad2e-4b9f20734c72" valueTypeId="a1846fbb-b8da-49c1-94ff-d4838e912e99"/>
+    <listType typeId="4397367c-7da5-4a45-9c00-7edf28297790" valueTypeId="990e52eb-32c9-4d24-8a11-27d360a15fc6"/>
+    <managerType typeId="ebce9461-454a-4773-a968-125cc3085be6" valueTypeId="ab9eaf60-d9fc-4774-8b4f-7c1157ad308e"/>
+  </producedTypes>
+  <name>k_column</name>
+  <synonym>
+    <key>ru</key>
+    <value>column</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.k_column.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.k_column.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>8</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b0c25c01-e3f7-4340-baf2-d5974402b739">
+    <name>type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Type</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

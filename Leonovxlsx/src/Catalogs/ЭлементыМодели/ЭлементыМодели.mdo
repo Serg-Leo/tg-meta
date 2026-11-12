@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="091b6483-d6ef-45ec-9d3b-eb438666afcc">
+  <producedTypes>
+    <objectType typeId="43fc990f-e5c2-45df-bab4-692663bb814d" valueTypeId="c9b93309-4c31-499d-bfda-376030b887c3"/>
+    <refType typeId="2bd8b0e2-6a56-4ef1-9e5c-e43946c16ff0" valueTypeId="f279e357-5f37-4709-9999-5beb008994f8"/>
+    <selectionType typeId="4d77f9b9-3723-4c8d-a83e-76903ffb983d" valueTypeId="09ff9e86-5b87-497a-bc79-6c58bf9677fa"/>
+    <listType typeId="b4e9a1c3-0882-4383-8365-90b5f9b8f606" valueTypeId="154b08b8-5ee1-4c15-9cb8-599bba57ddad"/>
+    <managerType typeId="84f0acd3-6ceb-4c29-8048-65eaae71e65c" valueTypeId="8ccdb93b-ccdf-4ae6-93f3-14fb7650ecef"/>
+  </producedTypes>
+  <name>ЭлементыМодели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Элементы модели</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЭлементыМодели.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЭлементыМодели.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="cca9e74f-f7b3-4a65-a609-18570e536b88">
+    <producedTypes>
+      <objectType typeId="fa32af98-d6ac-4b51-bde4-c81b2aa6e631" valueTypeId="26ee44d8-6d45-4b81-88f1-0ef65723eaab"/>
+      <rowType typeId="ff2960d2-71fd-4892-a42d-adfae8ff7e8f" valueTypeId="eec7aff7-51eb-4a5a-95e1-59d9179601b1"/>
+    </producedTypes>
+    <name>СвойстваЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства элемента</value>
+    </synonym>
+    <attributes uuid="c487d7f5-9b69-4e78-989c-0cd1e1eb5be2">
+      <name>ЭлСвойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Эл свойство</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СвойстваЭлементов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="7c2dc206-b82c-44cc-805b-f3a3697d19eb">
+    <producedTypes>
+      <objectType typeId="22f545ad-c3b7-4940-a3c0-b0adb3740175" valueTypeId="680d543e-cbd9-4ea2-a65b-e33854ec0672"/>
+      <rowType typeId="d9101cb0-4f3c-4ef3-ba83-ec76089c2343" valueTypeId="58669974-1f95-430d-9ee4-e27d365cf751"/>
+    </producedTypes>
+    <name>СвязиЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связи элемента</value>
+    </synonym>
+    <attributes uuid="f6ade1d7-61fa-4a5f-9de9-cf65b19cb76c">
+      <name>МЭлемент</name>
+      <synonym>
+        <key>ru</key>
+        <value>М элемент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ЭлементыМодели</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bb59332-5aeb-41e1-b999-ef32e7b4be5c">
+      <name>ТипСвязи</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип связи</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыСвязейЭлементов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1b6194b-cb5e-4ed2-bf41-f13138dca66d">
+  <name>Разработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.k_card</content>
+  <content>Catalog.Конфигурации</content>
+  <content>Catalog.Разработчики</content>
+  <content>Catalog.ОбъектыИзменений</content>
+  <content>Document.ВыполненноеИзменение</content>
+  <content>Report.ИзмененияПоЗадаче</content>
+  <content>Catalog.БазыДанных1С</content>
+  <content>Catalog.ХранилищаКонфигураций</content>
+  <content>Catalog.ВнешниеОтчетыОбработки</content>
+  <content>Enum.ТипыБазДанных</content>
+  <content>Catalog.k_comment</content>
+  <content>InformationRegister.ДобавленныеРеквизиты</content>
+  <content>CommonPicture.ТочкиМаршрутаВыполненияМаршрутногоЛиста</content>
+  <content>CommonPicture.СтатусыВыполненияЭтаповЗакрытияМесяца</content>
+  <content>CommonPicture.КоллекцияЗаметки</content>
+  <content>CommonPicture.Наборы</content>
+  <content>CommonPicture.РезультатыВыполненияПроцессовИЗадачКоллекция</content>
+</mdclass:Subsystem>

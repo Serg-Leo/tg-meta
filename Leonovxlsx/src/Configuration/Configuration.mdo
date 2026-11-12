@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8fc7e06-dacd-49d7-bd75-7cc775aad462">
+  <name>TogasMeta</name>
+  <synonym>
+    <key>ru</key>
+    <value>Togas META</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="288b9aaf-959a-45aa-a208-fbdb165876ee"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="139217e3-4334-4ae1-9e85-41dc43e9cb57"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5b9aebf5-5c6f-4dfb-a5aa-f0bfe434f356"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="acf815b9-141b-4784-a417-c8e406c554d5"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c59d2282-169a-4100-af9d-b340f143950d"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="11b791b9-582f-499d-aa4a-a6c1cc4160c1"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="48700e13-3db7-4aaa-afeb-bc0bda4c50b3"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="d8ee1180-4f01-4dbc-bcfa-78d558afcde1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Разработка</subsystems>
+  <subsystems>Subsystem.Служебные</subsystems>
+  <subsystems>Subsystem.Модель</subsystems>
+  <commonPictures>CommonPicture.ТочкиМаршрутаВыполненияМаршрутногоЛиста</commonPictures>
+  <commonPictures>CommonPicture.СтатусыВыполненияЭтаповЗакрытияМесяца</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияЗаметки</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.РезультатыВыполненияПроцессовИЗадачКоллекция</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияПиктограммФайлов</commonPictures>
+  <sessionParameters>SessionParameter.ApiKey</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийРазработчик</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <commonTemplates>CommonTemplate.МакетОбщий</commonTemplates>
+  <commonModules>CommonModule.ОбщийМодульКлиент</commonModules>
+  <commonModules>CommonModule.ОбщийМодульКлиентСервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульСервер</commonModules>
+  <commonModules>CommonModule.ОбщийМодульПовтИсп</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
+  <commonModules>CommonModule.КайтенСервер</commonModules>
+  <httpServices>HTTPService.togas_webhooks</httpServices>
+  <commonCommands>CommonCommand.ДобавитьВыполненноеИзменение</commonCommands>
+  <commonCommands>CommonCommand.ОтчетОбИзмененияхПоЗадаче</commonCommands>
+  <commonCommands>CommonCommand.ДобавитьВЗадачу</commonCommands>
+  <commonCommands>CommonCommand.ЗагрузитьЗадачи</commonCommands>
+  <commonCommands>CommonCommand.ОткрытьИзмененияПоЗадаче</commonCommands>
+  <commonForms>CommonForm.ДобавлениеКомментарияФайлаВЗадачу</commonForms>
+  <catalogs>Catalog.Конфигурации</catalogs>
+  <catalogs>Catalog.ОбъектыИзменений</catalogs>
+  <catalogs>Catalog.Разработчики</catalogs>
+  <catalogs>Catalog.k_card</catalogs>
+  <catalogs>Catalog.k_comment</catalogs>
+  <catalogs>Catalog.k_user</catalogs>
+  <catalogs>Catalog.k_column</catalogs>
+  <catalogs>Catalog.k_board</catalogs>
+  <catalogs>Catalog.k_space</catalogs>
+  <catalogs>Catalog.k_lane</catalogs>
+  <catalogs>Catalog.k_type</catalogs>
+  <catalogs>Catalog.k_tag</catalogs>
+  <catalogs>Catalog.КлассификаторПроцессов</catalogs>
+  <catalogs>Catalog.ЭлементыМодели</catalogs>
+  <catalogs>Catalog.СвойстваЭлементов</catalogs>
+  <catalogs>Catalog.БазыДанных1С</catalogs>
+  <catalogs>Catalog.ХранилищаКонфигураций</catalogs>
+  <catalogs>Catalog.ВнешниеОтчетыОбработки</catalogs>
+  <documents>Document.ВыполненноеИзменение</documents>
+  <enums>Enum.ВидыИзменений</enums>
+  <enums>Enum.ТипыСвязейЭлементов</enums>
+  <enums>Enum.ТипыБазДанных</enums>
+  <reports>Report.ИзмененияПоЗадаче</reports>
+  <informationRegisters>InformationRegister.ДанныеЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.WebHooks</informationRegisters>
+  <informationRegisters>InformationRegister.ОбработкаWebHooks</informationRegisters>
+  <informationRegisters>InformationRegister.ДобавленныеРеквизиты</informationRegisters>
+</mdclass:Configuration>

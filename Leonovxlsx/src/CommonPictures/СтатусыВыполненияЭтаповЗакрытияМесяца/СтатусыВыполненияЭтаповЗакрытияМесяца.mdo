@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="447f5388-e3c9-49da-a03c-ce2d88cb8cbb">
+  <name>СтатусыВыполненияЭтаповЗакрытияМесяца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы выполнения этапов закрытия месяца</value>
+  </synonym>
+</mdclass:CommonPicture>
